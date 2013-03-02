@@ -1,8 +1,8 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+pecify phone tech before including full_phone
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/tiny.mk)
+$(call inherit-product, vendor/aokp/configs/mini.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/beni/full_beni.mk)
@@ -10,11 +10,10 @@ $(call inherit-product, device/samsung/beni/full_beni.mk)
 # Release name and versioning
 PRODUCT_RELEASE_NAME := GalaxyBeni
 PRODUCT_VERSION_DEVICE_SPECIFIC := -GT-S5670
-#-include vendor/cm/config/common_versions.mk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := beni
-PRODUCT_NAME := cm_beni
+PRODUCT_NAME := aokp_beni
 
 ## Bootanimation
-TARGET_BOOTANIMATION_NAME := vertical-320x480
+TARGET_BOOTANIMATION_NAME := vertical-240x320
