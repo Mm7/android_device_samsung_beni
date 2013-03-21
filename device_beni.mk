@@ -22,16 +22,16 @@ DEVICE_PACKAGE_OVERLAYS := device/samsung/beni/overlay
 
 ## Camera
 PRODUCT_PACKAGES += \
-    camera.beni
+    camera.msm7x27
 
 ## Audio
 PRODUCT_PACKAGES += \
-   audio.primary.beni \
-   audio_policy.beni
+   audio.primary.msm7x27 \
+   audio_policy.msm7x27
 
 ## Lights
-#PRODUCT_PACKAGES += \
-#   lights.beni
+PRODUCT_PACKAGES += \
+   lights.msm7x27
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
