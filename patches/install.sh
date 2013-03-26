@@ -6,5 +6,5 @@ echo "Obtaining build directory..."
 rootdirectory="$PWD"
 cd packages/apps/Settings
 echo "Applying packages/apps/Settings patches..."
-git am $rootdirectory/device/samsung/$device/patches/packages_apps_Settings/*.patch
+git am $rootdirectory/device/samsung/beni/patches/packages_apps_Settings/*.patch
 cd $rootdirectory
