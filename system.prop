@@ -60,7 +60,7 @@ sys.mem.HIDDEN_APP_MAX_MEM=48128
 
 # Dalvik
 dalvik.vm.lockprof.threshold=500
-dalvik.vm.dexopt-flags=m=y
+dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.heapstartsize=5m
 dalvik.vm.heapgrowthlimit=24m
 dalvik.vm.heapsize=64m
