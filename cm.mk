@@ -1,20 +1,20 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# BootAnimation
+TARGET_BOOTANIMATION_NAME := vertical-240x320
 
-# Inherit some common CM stuff.
+# Inherit device configuration for Beni
+$(call inherit-product, device/samsung/beni/full_beni.mk)
+
+# Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/beni/full_beni.mk)
+# Include GSM stuff
+$(call inherit-product, vendor/cm/config/gsm.mk)
+
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := GalaxyBeni
 PRODUCT_VERSION_DEVICE_SPECIFIC := -GT-S5670
--include vendor/cm/config/common_versions.mk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := beni
 PRODUCT_NAME := cm_beni
-
-## Bootanimation
-TARGET_BOOTANIMATION_NAME := vertical-240x320
