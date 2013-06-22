@@ -25,7 +25,7 @@ $(call inherit-product, device/samsung/beni/device_beni.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_beni
+#PRODUCT_NAME := full_beni
 PRODUCT_DEVICE := beni
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-S5670
