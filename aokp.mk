@@ -2,7 +2,7 @@
 TARGET_BOOTANIMATION_NAME := vertical-240x320
 
 # Inherit device configuration for Beni
-$(call inherit-product, device/samsung/beni/full_beni.mk)
+#$(call inherit-product, device/samsung/beni/full_beni.mk)
 
 # Inherit some common aokp stuff.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
