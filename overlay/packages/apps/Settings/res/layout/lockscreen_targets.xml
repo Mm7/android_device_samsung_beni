@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 	<!-- background colour changed from unreadable blue to black-->
-    <TextView
+<!--    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0F0F0F"
@@ -14,7 +14,7 @@
         android:padding="4dip"
         android:gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/lockscreen_target_info" />
+        android:text="@string/lockscreen_target_info" />-->
 
     <View
         android:layout_width="match_parent"
