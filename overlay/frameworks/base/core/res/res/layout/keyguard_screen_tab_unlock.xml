@@ -236,12 +236,12 @@
         android:paddingRight="12dip"
         android:paddingTop="80.0dip" >
 
-        <ImageView
+<!--        <ImageView
             android:layout_width="36dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:gravity="center"
-            android:src="@drawable/ic_lock_idle_calendar" />
+            android:src="@drawable/ic_lock_idle_calendar" />-->
 
         <View
             android:layout_width="1dip"
