@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_bar_height">29.0dip</dimen>
+    <dimen name="navigation_bar_height_landscape">29.0dip</dimen>
+    <dimen name="password_keyboard_key_height_alpha">35.0dip</dimen>
+    <dimen name="password_keyboard_key_height_numeric">35.0dip</dimen>
+    <dimen name="password_keyboard_spacebar_vertical_correction">1.0dip</dimen>
+    <dimen name="password_keyboard_horizontalGap">1.0dip</dimen>
+    <dimen name="password_keyboard_verticalGap">2.0dip</dimen>
+    <dimen name="keyguard_lockscreen_outerring_diameter">220.0dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">110.0dip</dimen>	
+    <dimen name="keyguard_lockscreen_clock_font_size">40.0dip</dimen>
+    <dimen name="keyguard_lockscreen_status_line_clockfont_top_margin">1.0dip</dimen>
+    <dimen name="keyguard_lockscreen_status_line_clockfont_bottom_margin">1.0dip</dimen>
+    <dimen name="default_gap">1.0dip</dimen>
+    <dimen name="keyguard_security_no_widget_height">382.0dip</dimen>	
+    <dimen name="kg_status_clock_font_size">50.0dip</dimen>
+    <dimen name="kg_status_date_font_size">13.0dip</dimen>
+    <dimen name="kg_status_line_font_size">12.0dip</dimen>	
+</resources>

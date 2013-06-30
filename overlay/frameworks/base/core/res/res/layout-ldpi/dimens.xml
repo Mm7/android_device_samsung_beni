@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_security_no_widget_height">382.0dip</dimen>
+    <dimen name="kg_status_clock_font_size">50.0dip</dimen>
+    <dimen name="kg_status_date_font_size">13.0dip</dimen>
+    <dimen name="kg_status_line_font_size">12.0dip</dimen>		
+</resources>
