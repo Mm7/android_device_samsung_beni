@@ -27,9 +27,9 @@
         <item name="singleLine">true</item>
         <item name="fontFamily">sans-serif</item>
     </style>
-    <style name="TextAppearance.NumPadKey" parent="@style/TextAppearance">
+<!--    <style name="TextAppearance.NumPadKey" parent="@style/TextAppearance">
         <item name="textSize">32.0dip</item>
         <item name="textStyle">normal</item>
         <item name="textColor">#ffffffff</item>
         <item name="fontFamily">sans-serif</item>
-    </style>
+    </style>-->
